@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#This script terminals in this example, started by running my 4-to_infinity_and_beyond
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
+

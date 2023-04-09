@@ -10,9 +10,9 @@ dns_config () {
 if [ "$#" == 1 ]
 then
   dns_config "$1" "www"
-  dns_config "$1" "lb-01"
-  dns_config "$1" "web-01"
-  dns_config "$1" "web-02"
+  dns_config "$1" "www"
+  dns_config "$1" "www"
+  dns_config "$1" "www"
 elif [ "$#" == 2 ]
 then
   dns_config "$1" "$2"

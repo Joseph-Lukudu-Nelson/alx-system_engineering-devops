@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # Fix the nginx requests limit
 exec { 'upgrade':
   path    => '/bin/',
